@@ -1,0 +1,19 @@
+[1.036s] Invoking command in '/home/dax/dev_ws/build/processing_camera': PYTHONPATH=/home/dax/dev_ws/build/processing_camera/prefix_override:/home/dax/dev_ws/install/processing_camera/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/dax/dev_ws/build/processing_camera/build --no-deps symlink_data
+[1.273s] running develop
+[1.274s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.274s]   warnings.warn(
+[1.444s] running egg_info
+[1.445s] writing processing_camera.egg-info/PKG-INFO
+[1.445s] writing dependency_links to processing_camera.egg-info/dependency_links.txt
+[1.445s] writing entry points to processing_camera.egg-info/entry_points.txt
+[1.445s] writing requirements to processing_camera.egg-info/requires.txt
+[1.445s] writing top-level names to processing_camera.egg-info/top_level.txt
+[1.445s] reading manifest file 'processing_camera.egg-info/SOURCES.txt'
+[1.445s] writing manifest file 'processing_camera.egg-info/SOURCES.txt'
+[1.445s] running build_ext
+[1.445s] Creating /home/dax/dev_ws/install/processing_camera/lib/python3.10/site-packages/processing-camera.egg-link (link to .)
+[1.445s] Installing processing_camera script to /home/dax/dev_ws/install/processing_camera/lib/processing_camera
+[1.445s] 
+[1.445s] Installed /home/dax/dev_ws/build/processing_camera
+[1.445s] running symlink_data
+[1.480s] Invoked command in '/home/dax/dev_ws/build/processing_camera' returned '0': PYTHONPATH=/home/dax/dev_ws/build/processing_camera/prefix_override:/home/dax/dev_ws/install/processing_camera/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/dax/dev_ws/build/processing_camera/build --no-deps symlink_data

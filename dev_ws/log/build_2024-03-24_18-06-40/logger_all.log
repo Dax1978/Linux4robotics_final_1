@@ -1,0 +1,313 @@
+[0.164s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.164s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=3, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x702a8c945870>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x702a8ca2e470>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x702a8ca2e470>>)
+[0.378s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.378s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.379s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.379s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.379s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.379s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.379s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/dax/dev_ws'
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/capture_camera) by extensions ['ignore', 'ignore_ament_install']
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/capture_camera) by extension 'ignore'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/capture_camera) by extension 'ignore_ament_install'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/capture_camera) by extensions ['colcon_pkg']
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/capture_camera) by extension 'colcon_pkg'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/capture_camera) by extensions ['colcon_meta']
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/capture_camera) by extension 'colcon_meta'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/capture_camera) by extensions ['ros']
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/capture_camera) by extension 'ros'
+[0.393s] DEBUG:colcon.colcon_core.package_identification:Package 'src/capture_camera' with type 'ros.ament_python' and name 'capture_camera'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/processing_camera) by extensions ['ignore', 'ignore_ament_install']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/processing_camera) by extension 'ignore'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/processing_camera) by extension 'ignore_ament_install'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/processing_camera) by extensions ['colcon_pkg']
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/processing_camera) by extension 'colcon_pkg'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/processing_camera) by extensions ['colcon_meta']
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/processing_camera) by extension 'colcon_meta'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/processing_camera) by extensions ['ros']
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/processing_camera) by extension 'ros'
+[0.395s] DEBUG:colcon.colcon_core.package_identification:Package 'src/processing_camera' with type 'ros.ament_python' and name 'processing_camera'
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(src/processing_info_camera) by extensions ['ignore', 'ignore_ament_install']
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(src/processing_info_camera) by extension 'ignore'
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(src/processing_info_camera) by extension 'ignore_ament_install'
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(src/processing_info_camera) by extensions ['colcon_pkg']
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(src/processing_info_camera) by extension 'colcon_pkg'
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(src/processing_info_camera) by extensions ['colcon_meta']
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/processing_info_camera) by extension 'colcon_meta'
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/processing_info_camera) by extensions ['ros']
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/processing_info_camera) by extension 'ros'
+[0.397s] DEBUG:colcon.colcon_core.package_identification:Package 'src/processing_info_camera' with type 'ros.ament_python' and name 'processing_info_camera'
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/skillboxbot_one) by extensions ['ignore', 'ignore_ament_install']
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/skillboxbot_one) by extension 'ignore'
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/skillboxbot_one) by extension 'ignore_ament_install'
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/skillboxbot_one) by extensions ['colcon_pkg']
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/skillboxbot_one) by extension 'colcon_pkg'
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/skillboxbot_one) by extensions ['colcon_meta']
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/skillboxbot_one) by extension 'colcon_meta'
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/skillboxbot_one) by extensions ['ros']
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/skillboxbot_one) by extension 'ros'
+[0.398s] DEBUG:colcon.colcon_core.package_identification:Package 'src/skillboxbot_one' with type 'ros.ament_cmake' and name 'skillboxbot_one'
+[0.398s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.398s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.398s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.398s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.398s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.426s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.426s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.429s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/dax/dev_ws/install
+[0.430s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 294 installed packages in /opt/ros/humble
+[0.438s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.477s] Level 5:colcon.colcon_core.verb:set package 'capture_camera' build argument 'cmake_args' from command line to 'None'
+[0.477s] Level 5:colcon.colcon_core.verb:set package 'capture_camera' build argument 'cmake_target' from command line to 'None'
+[0.477s] Level 5:colcon.colcon_core.verb:set package 'capture_camera' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.477s] Level 5:colcon.colcon_core.verb:set package 'capture_camera' build argument 'cmake_clean_cache' from command line to 'False'
+[0.477s] Level 5:colcon.colcon_core.verb:set package 'capture_camera' build argument 'cmake_clean_first' from command line to 'False'
+[0.477s] Level 5:colcon.colcon_core.verb:set package 'capture_camera' build argument 'cmake_force_configure' from command line to 'False'
+[0.477s] Level 5:colcon.colcon_core.verb:set package 'capture_camera' build argument 'ament_cmake_args' from command line to 'None'
+[0.477s] Level 5:colcon.colcon_core.verb:set package 'capture_camera' build argument 'catkin_cmake_args' from command line to 'None'
+[0.477s] Level 5:colcon.colcon_core.verb:set package 'capture_camera' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.477s] DEBUG:colcon.colcon_core.verb:Building package 'capture_camera' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dax/dev_ws/build/capture_camera', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dax/dev_ws/install/capture_camera', 'merge_install': False, 'path': '/home/dax/dev_ws/src/capture_camera', 'symlink_install': True, 'test_result_base': None}
+[0.478s] Level 5:colcon.colcon_core.verb:set package 'processing_camera' build argument 'cmake_args' from command line to 'None'
+[0.478s] Level 5:colcon.colcon_core.verb:set package 'processing_camera' build argument 'cmake_target' from command line to 'None'
+[0.478s] Level 5:colcon.colcon_core.verb:set package 'processing_camera' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.478s] Level 5:colcon.colcon_core.verb:set package 'processing_camera' build argument 'cmake_clean_cache' from command line to 'False'
+[0.478s] Level 5:colcon.colcon_core.verb:set package 'processing_camera' build argument 'cmake_clean_first' from command line to 'False'
+[0.478s] Level 5:colcon.colcon_core.verb:set package 'processing_camera' build argument 'cmake_force_configure' from command line to 'False'
+[0.478s] Level 5:colcon.colcon_core.verb:set package 'processing_camera' build argument 'ament_cmake_args' from command line to 'None'
+[0.478s] Level 5:colcon.colcon_core.verb:set package 'processing_camera' build argument 'catkin_cmake_args' from command line to 'None'
+[0.478s] Level 5:colcon.colcon_core.verb:set package 'processing_camera' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.478s] DEBUG:colcon.colcon_core.verb:Building package 'processing_camera' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dax/dev_ws/build/processing_camera', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dax/dev_ws/install/processing_camera', 'merge_install': False, 'path': '/home/dax/dev_ws/src/processing_camera', 'symlink_install': True, 'test_result_base': None}
+[0.479s] Level 5:colcon.colcon_core.verb:set package 'processing_info_camera' build argument 'cmake_args' from command line to 'None'
+[0.479s] Level 5:colcon.colcon_core.verb:set package 'processing_info_camera' build argument 'cmake_target' from command line to 'None'
+[0.479s] Level 5:colcon.colcon_core.verb:set package 'processing_info_camera' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.479s] Level 5:colcon.colcon_core.verb:set package 'processing_info_camera' build argument 'cmake_clean_cache' from command line to 'False'
+[0.479s] Level 5:colcon.colcon_core.verb:set package 'processing_info_camera' build argument 'cmake_clean_first' from command line to 'False'
+[0.479s] Level 5:colcon.colcon_core.verb:set package 'processing_info_camera' build argument 'cmake_force_configure' from command line to 'False'
+[0.479s] Level 5:colcon.colcon_core.verb:set package 'processing_info_camera' build argument 'ament_cmake_args' from command line to 'None'
+[0.479s] Level 5:colcon.colcon_core.verb:set package 'processing_info_camera' build argument 'catkin_cmake_args' from command line to 'None'
+[0.479s] Level 5:colcon.colcon_core.verb:set package 'processing_info_camera' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.479s] DEBUG:colcon.colcon_core.verb:Building package 'processing_info_camera' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dax/dev_ws/build/processing_info_camera', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dax/dev_ws/install/processing_info_camera', 'merge_install': False, 'path': '/home/dax/dev_ws/src/processing_info_camera', 'symlink_install': True, 'test_result_base': None}
+[0.479s] Level 5:colcon.colcon_core.verb:set package 'skillboxbot_one' build argument 'cmake_args' from command line to 'None'
+[0.480s] Level 5:colcon.colcon_core.verb:set package 'skillboxbot_one' build argument 'cmake_target' from command line to 'None'
+[0.480s] Level 5:colcon.colcon_core.verb:set package 'skillboxbot_one' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.480s] Level 5:colcon.colcon_core.verb:set package 'skillboxbot_one' build argument 'cmake_clean_cache' from command line to 'False'
+[0.480s] Level 5:colcon.colcon_core.verb:set package 'skillboxbot_one' build argument 'cmake_clean_first' from command line to 'False'
+[0.480s] Level 5:colcon.colcon_core.verb:set package 'skillboxbot_one' build argument 'cmake_force_configure' from command line to 'False'
+[0.480s] Level 5:colcon.colcon_core.verb:set package 'skillboxbot_one' build argument 'ament_cmake_args' from command line to 'None'
+[0.480s] Level 5:colcon.colcon_core.verb:set package 'skillboxbot_one' build argument 'catkin_cmake_args' from command line to 'None'
+[0.480s] Level 5:colcon.colcon_core.verb:set package 'skillboxbot_one' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.480s] DEBUG:colcon.colcon_core.verb:Building package 'skillboxbot_one' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dax/dev_ws/build/skillboxbot_one', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dax/dev_ws/install/skillboxbot_one', 'merge_install': False, 'path': '/home/dax/dev_ws/src/skillboxbot_one', 'symlink_install': True, 'test_result_base': None}
+[0.480s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.481s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.481s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/dax/dev_ws/src/capture_camera' with build type 'ament_python'
+[0.481s] Level 1:colcon.colcon_core.shell:create_environment_hook('capture_camera', 'ament_prefix_path')
+[0.487s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.487s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dax/dev_ws/install/capture_camera/share/capture_camera/hook/ament_prefix_path.ps1'
+[0.488s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dax/dev_ws/install/capture_camera/share/capture_camera/hook/ament_prefix_path.dsv'
+[0.489s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dax/dev_ws/install/capture_camera/share/capture_camera/hook/ament_prefix_path.sh'
+[0.490s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.490s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.492s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/dax/dev_ws/src/processing_camera' with build type 'ament_python'
+[0.492s] Level 1:colcon.colcon_core.shell:create_environment_hook('processing_camera', 'ament_prefix_path')
+[0.492s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dax/dev_ws/install/processing_camera/share/processing_camera/hook/ament_prefix_path.ps1'
+[0.493s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dax/dev_ws/install/processing_camera/share/processing_camera/hook/ament_prefix_path.dsv'
+[0.493s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dax/dev_ws/install/processing_camera/share/processing_camera/hook/ament_prefix_path.sh'
+[0.493s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.493s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.496s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/dax/dev_ws/src/processing_info_camera' with build type 'ament_python'
+[0.496s] Level 1:colcon.colcon_core.shell:create_environment_hook('processing_info_camera', 'ament_prefix_path')
+[0.496s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dax/dev_ws/install/processing_info_camera/share/processing_info_camera/hook/ament_prefix_path.ps1'
+[0.497s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dax/dev_ws/install/processing_info_camera/share/processing_info_camera/hook/ament_prefix_path.dsv'
+[0.497s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dax/dev_ws/install/processing_info_camera/share/processing_info_camera/hook/ament_prefix_path.sh'
+[0.498s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.498s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.733s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/dax/dev_ws/src/capture_camera'
+[0.733s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.733s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.993s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/dax/dev_ws/src/processing_camera'
+[0.994s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.994s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.238s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/dax/dev_ws/src/processing_info_camera'
+[1.238s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.238s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.590s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/dax/dev_ws/install/processing_camera/share/ament_index/resource_index/packages/processing_camera
+[1.590s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/dax/dev_ws/install/processing_camera/share/processing_camera/package.xml
+[1.590s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/dax/dev_ws/install/processing_camera/lib/processing_camera/processing_camera
+[1.598s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/dax/dev_ws/install/capture_camera/share/ament_index/resource_index/packages/capture_camera
+[1.598s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/dax/dev_ws/install/capture_camera/share/capture_camera/package.xml
+[1.599s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/dax/dev_ws/install/capture_camera/share/capture_camera/launch/camera_launch.py
+[1.599s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/dax/dev_ws/install/capture_camera/lib/capture_camera/capture_camera
+[1.601s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dax/dev_ws/build/processing_camera': PYTHONPATH=/home/dax/dev_ws/build/processing_camera/prefix_override:/home/dax/dev_ws/install/processing_camera/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/dax/dev_ws/build/processing_camera/build --no-deps symlink_data --force
+[1.602s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dax/dev_ws/build/capture_camera': PYTHONPATH=/home/dax/dev_ws/build/capture_camera/prefix_override:/home/dax/dev_ws/install/capture_camera/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/dax/dev_ws/build/capture_camera/build --no-deps symlink_data --force
+[1.614s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/dax/dev_ws/install/processing_info_camera/share/ament_index/resource_index/packages/processing_info_camera
+[1.614s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/dax/dev_ws/install/processing_info_camera/share/processing_info_camera/package.xml
+[1.614s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/dax/dev_ws/install/processing_info_camera/lib/processing_info_camera/processing_info_camera
+[1.622s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dax/dev_ws/build/processing_info_camera': PYTHONPATH=/home/dax/dev_ws/build/processing_info_camera/prefix_override:/home/dax/dev_ws/install/processing_info_camera/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/dax/dev_ws/build/processing_info_camera/build --no-deps symlink_data --force
+[2.082s] Level 1:colcon.colcon_core.shell:create_environment_hook('capture_camera', 'pythonpath_develop')
+[2.082s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dax/dev_ws/build/capture_camera/share/capture_camera/hook/pythonpath_develop.ps1'
+[2.083s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dax/dev_ws/build/capture_camera' returned '0': PYTHONPATH=/home/dax/dev_ws/build/capture_camera/prefix_override:/home/dax/dev_ws/install/capture_camera/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/dax/dev_ws/build/capture_camera/build --no-deps symlink_data --force
+[2.083s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dax/dev_ws/build/capture_camera/share/capture_camera/hook/pythonpath_develop.dsv'
+[2.083s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dax/dev_ws/build/capture_camera/share/capture_camera/hook/pythonpath_develop.sh'
+[2.108s] Level 1:colcon.colcon_core.environment:checking '/home/dax/dev_ws/install/capture_camera' for CMake module files
+[2.108s] Level 1:colcon.colcon_core.environment:checking '/home/dax/dev_ws/install/capture_camera' for CMake config files
+[2.109s] Level 1:colcon.colcon_core.environment:checking '/home/dax/dev_ws/install/capture_camera/lib'
+[2.109s] Level 1:colcon.colcon_core.environment:checking '/home/dax/dev_ws/install/capture_camera/bin'
+[2.109s] Level 1:colcon.colcon_core.environment:checking '/home/dax/dev_ws/install/capture_camera/lib/pkgconfig/capture_camera.pc'
+[2.109s] Level 1:colcon.colcon_core.environment:checking '/home/dax/dev_ws/install/capture_camera/lib/python3.10/site-packages'
+[2.110s] Level 1:colcon.colcon_core.shell:create_environment_hook('capture_camera', 'pythonpath')
+[2.110s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dax/dev_ws/install/capture_camera/share/capture_camera/hook/pythonpath.ps1'
+[2.110s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dax/dev_ws/install/capture_camera/share/capture_camera/hook/pythonpath.dsv'
+[2.111s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dax/dev_ws/install/capture_camera/share/capture_camera/hook/pythonpath.sh'
+[2.111s] Level 1:colcon.colcon_core.environment:checking '/home/dax/dev_ws/install/capture_camera/bin'
+[2.111s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(capture_camera)
+[2.112s] INFO:colcon.colcon_core.shell:Creating package script '/home/dax/dev_ws/install/capture_camera/share/capture_camera/package.ps1'
+[2.113s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dax/dev_ws/install/capture_camera/share/capture_camera/package.dsv'
+[2.114s] INFO:colcon.colcon_core.shell:Creating package script '/home/dax/dev_ws/install/capture_camera/share/capture_camera/package.sh'
+[2.115s] INFO:colcon.colcon_core.shell:Creating package script '/home/dax/dev_ws/install/capture_camera/share/capture_camera/package.bash'
+[2.116s] INFO:colcon.colcon_core.shell:Creating package script '/home/dax/dev_ws/install/capture_camera/share/capture_camera/package.zsh'
+[2.117s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dax/dev_ws/install/capture_camera/share/colcon-core/packages/capture_camera)
+[2.117s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dax/dev_ws/src/skillboxbot_one' with build type 'ament_cmake'
+[2.117s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dax/dev_ws/src/skillboxbot_one'
+[2.118s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.118s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.121s] Level 1:colcon.colcon_core.shell:create_environment_hook('processing_info_camera', 'pythonpath_develop')
+[2.121s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dax/dev_ws/build/processing_info_camera' returned '0': PYTHONPATH=/home/dax/dev_ws/build/processing_info_camera/prefix_override:/home/dax/dev_ws/install/processing_info_camera/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/dax/dev_ws/build/processing_info_camera/build --no-deps symlink_data --force
+[2.122s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dax/dev_ws/build/processing_info_camera/share/processing_info_camera/hook/pythonpath_develop.ps1'
+[2.123s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dax/dev_ws/build/processing_info_camera/share/processing_info_camera/hook/pythonpath_develop.dsv'
+[2.123s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dax/dev_ws/build/processing_info_camera/share/processing_info_camera/hook/pythonpath_develop.sh'
+[2.124s] Level 1:colcon.colcon_core.environment:checking '/home/dax/dev_ws/install/processing_info_camera' for CMake module files
+[2.124s] Level 1:colcon.colcon_core.environment:checking '/home/dax/dev_ws/install/processing_info_camera' for CMake config files
+[2.125s] Level 1:colcon.colcon_core.environment:checking '/home/dax/dev_ws/install/processing_info_camera/lib'
+[2.125s] Level 1:colcon.colcon_core.environment:checking '/home/dax/dev_ws/install/processing_info_camera/bin'
+[2.125s] Level 1:colcon.colcon_core.environment:checking '/home/dax/dev_ws/install/processing_info_camera/lib/pkgconfig/processing_info_camera.pc'
+[2.125s] Level 1:colcon.colcon_core.environment:checking '/home/dax/dev_ws/install/processing_info_camera/lib/python3.10/site-packages'
+[2.125s] Level 1:colcon.colcon_core.shell:create_environment_hook('processing_info_camera', 'pythonpath')
+[2.125s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dax/dev_ws/install/processing_info_camera/share/processing_info_camera/hook/pythonpath.ps1'
+[2.126s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dax/dev_ws/install/processing_info_camera/share/processing_info_camera/hook/pythonpath.dsv'
+[2.126s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dax/dev_ws/install/processing_info_camera/share/processing_info_camera/hook/pythonpath.sh'
+[2.127s] Level 1:colcon.colcon_core.environment:checking '/home/dax/dev_ws/install/processing_info_camera/bin'
+[2.127s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(processing_info_camera)
+[2.128s] INFO:colcon.colcon_core.shell:Creating package script '/home/dax/dev_ws/install/processing_info_camera/share/processing_info_camera/package.ps1'
+[2.128s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dax/dev_ws/install/processing_info_camera/share/processing_info_camera/package.dsv'
+[2.129s] INFO:colcon.colcon_core.shell:Creating package script '/home/dax/dev_ws/install/processing_info_camera/share/processing_info_camera/package.sh'
+[2.129s] INFO:colcon.colcon_core.shell:Creating package script '/home/dax/dev_ws/install/processing_info_camera/share/processing_info_camera/package.bash'
+[2.130s] INFO:colcon.colcon_core.shell:Creating package script '/home/dax/dev_ws/install/processing_info_camera/share/processing_info_camera/package.zsh'
+[2.130s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dax/dev_ws/install/processing_info_camera/share/colcon-core/packages/processing_info_camera)
+[2.138s] Level 1:colcon.colcon_core.shell:create_environment_hook('processing_camera', 'pythonpath_develop')
+[2.139s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dax/dev_ws/build/processing_camera/share/processing_camera/hook/pythonpath_develop.ps1'
+[2.139s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dax/dev_ws/build/processing_camera/share/processing_camera/hook/pythonpath_develop.dsv'
+[2.140s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dax/dev_ws/build/processing_camera/share/processing_camera/hook/pythonpath_develop.sh'
+[2.140s] Level 1:colcon.colcon_core.environment:checking '/home/dax/dev_ws/install/processing_camera' for CMake module files
+[2.141s] Level 1:colcon.colcon_core.environment:checking '/home/dax/dev_ws/install/processing_camera' for CMake config files
+[2.141s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dax/dev_ws/build/skillboxbot_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dax/dev_ws/install/processing_info_camera:/home/dax/dev_ws/install/processing_camera:/home/dax/dev_ws/install/capture_camera:/opt/ros/humble /usr/bin/cmake /home/dax/dev_ws/src/skillboxbot_one -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dax/dev_ws/install/skillboxbot_one
+[2.141s] Level 1:colcon.colcon_core.environment:checking '/home/dax/dev_ws/install/processing_camera/lib'
+[2.141s] Level 1:colcon.colcon_core.environment:checking '/home/dax/dev_ws/install/processing_camera/bin'
+[2.142s] Level 1:colcon.colcon_core.environment:checking '/home/dax/dev_ws/install/processing_camera/lib/pkgconfig/processing_camera.pc'
+[2.142s] Level 1:colcon.colcon_core.environment:checking '/home/dax/dev_ws/install/processing_camera/lib/python3.10/site-packages'
+[2.142s] Level 1:colcon.colcon_core.shell:create_environment_hook('processing_camera', 'pythonpath')
+[2.142s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dax/dev_ws/install/processing_camera/share/processing_camera/hook/pythonpath.ps1'
+[2.142s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dax/dev_ws/build/processing_camera' returned '0': PYTHONPATH=/home/dax/dev_ws/build/processing_camera/prefix_override:/home/dax/dev_ws/install/processing_camera/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/dax/dev_ws/build/processing_camera/build --no-deps symlink_data --force
+[2.143s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dax/dev_ws/install/processing_camera/share/processing_camera/hook/pythonpath.dsv'
+[2.143s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dax/dev_ws/install/processing_camera/share/processing_camera/hook/pythonpath.sh'
+[2.143s] Level 1:colcon.colcon_core.environment:checking '/home/dax/dev_ws/install/processing_camera/bin'
+[2.143s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(processing_camera)
+[2.144s] INFO:colcon.colcon_core.shell:Creating package script '/home/dax/dev_ws/install/processing_camera/share/processing_camera/package.ps1'
+[2.144s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dax/dev_ws/install/processing_camera/share/processing_camera/package.dsv'
+[2.144s] INFO:colcon.colcon_core.shell:Creating package script '/home/dax/dev_ws/install/processing_camera/share/processing_camera/package.sh'
+[2.145s] INFO:colcon.colcon_core.shell:Creating package script '/home/dax/dev_ws/install/processing_camera/share/processing_camera/package.bash'
+[2.145s] INFO:colcon.colcon_core.shell:Creating package script '/home/dax/dev_ws/install/processing_camera/share/processing_camera/package.zsh'
+[2.145s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dax/dev_ws/install/processing_camera/share/colcon-core/packages/processing_camera)
+[2.449s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dax/dev_ws/build/skillboxbot_one' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dax/dev_ws/install/processing_info_camera:/home/dax/dev_ws/install/processing_camera:/home/dax/dev_ws/install/capture_camera:/opt/ros/humble /usr/bin/cmake /home/dax/dev_ws/src/skillboxbot_one -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dax/dev_ws/install/skillboxbot_one
+[2.451s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dax/dev_ws/build/skillboxbot_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dax/dev_ws/install/processing_info_camera:/home/dax/dev_ws/install/processing_camera:/home/dax/dev_ws/install/capture_camera:/opt/ros/humble /usr/bin/cmake --build /home/dax/dev_ws/build/skillboxbot_one -- -j3 -l3
+[2.481s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dax/dev_ws/build/skillboxbot_one' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dax/dev_ws/install/processing_info_camera:/home/dax/dev_ws/install/processing_camera:/home/dax/dev_ws/install/capture_camera:/opt/ros/humble /usr/bin/cmake --build /home/dax/dev_ws/build/skillboxbot_one -- -j3 -l3
+[2.504s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dax/dev_ws/build/skillboxbot_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dax/dev_ws/install/processing_info_camera:/home/dax/dev_ws/install/processing_camera:/home/dax/dev_ws/install/capture_camera:/opt/ros/humble /usr/bin/cmake --install /home/dax/dev_ws/build/skillboxbot_one
+[2.532s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(skillboxbot_one)
+[2.532s] Level 1:colcon.colcon_core.environment:checking '/home/dax/dev_ws/install/skillboxbot_one' for CMake module files
+[2.533s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dax/dev_ws/build/skillboxbot_one' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dax/dev_ws/install/processing_info_camera:/home/dax/dev_ws/install/processing_camera:/home/dax/dev_ws/install/capture_camera:/opt/ros/humble /usr/bin/cmake --install /home/dax/dev_ws/build/skillboxbot_one
+[2.533s] Level 1:colcon.colcon_core.environment:checking '/home/dax/dev_ws/install/skillboxbot_one' for CMake config files
+[2.533s] Level 1:colcon.colcon_core.shell:create_environment_hook('skillboxbot_one', 'cmake_prefix_path')
+[2.533s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dax/dev_ws/install/skillboxbot_one/share/skillboxbot_one/hook/cmake_prefix_path.ps1'
+[2.534s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dax/dev_ws/install/skillboxbot_one/share/skillboxbot_one/hook/cmake_prefix_path.dsv'
+[2.534s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dax/dev_ws/install/skillboxbot_one/share/skillboxbot_one/hook/cmake_prefix_path.sh'
+[2.535s] Level 1:colcon.colcon_core.environment:checking '/home/dax/dev_ws/install/skillboxbot_one/bin'
+[2.535s] Level 1:colcon.colcon_core.environment:checking '/home/dax/dev_ws/install/skillboxbot_one/lib/pkgconfig/skillboxbot_one.pc'
+[2.535s] Level 1:colcon.colcon_core.environment:checking '/home/dax/dev_ws/install/skillboxbot_one/lib/python3.10/site-packages'
+[2.535s] Level 1:colcon.colcon_core.environment:checking '/home/dax/dev_ws/install/skillboxbot_one/bin'
+[2.535s] INFO:colcon.colcon_core.shell:Creating package script '/home/dax/dev_ws/install/skillboxbot_one/share/skillboxbot_one/package.ps1'
+[2.535s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dax/dev_ws/install/skillboxbot_one/share/skillboxbot_one/package.dsv'
+[2.536s] INFO:colcon.colcon_core.shell:Creating package script '/home/dax/dev_ws/install/skillboxbot_one/share/skillboxbot_one/package.sh'
+[2.536s] INFO:colcon.colcon_core.shell:Creating package script '/home/dax/dev_ws/install/skillboxbot_one/share/skillboxbot_one/package.bash'
+[2.536s] INFO:colcon.colcon_core.shell:Creating package script '/home/dax/dev_ws/install/skillboxbot_one/share/skillboxbot_one/package.zsh'
+[2.537s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dax/dev_ws/install/skillboxbot_one/share/colcon-core/packages/skillboxbot_one)
+[2.557s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(skillboxbot_one)
+[2.560s] Level 1:colcon.colcon_core.environment:checking '/home/dax/dev_ws/install/skillboxbot_one' for CMake module files
+[2.560s] Level 1:colcon.colcon_core.environment:checking '/home/dax/dev_ws/install/skillboxbot_one' for CMake config files
+[2.561s] Level 1:colcon.colcon_core.shell:create_environment_hook('skillboxbot_one', 'cmake_prefix_path')
+[2.561s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dax/dev_ws/install/skillboxbot_one/share/skillboxbot_one/hook/cmake_prefix_path.ps1'
+[2.562s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dax/dev_ws/install/skillboxbot_one/share/skillboxbot_one/hook/cmake_prefix_path.dsv'
+[2.562s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dax/dev_ws/install/skillboxbot_one/share/skillboxbot_one/hook/cmake_prefix_path.sh'
+[2.563s] Level 1:colcon.colcon_core.environment:checking '/home/dax/dev_ws/install/skillboxbot_one/bin'
+[2.563s] Level 1:colcon.colcon_core.environment:checking '/home/dax/dev_ws/install/skillboxbot_one/lib/pkgconfig/skillboxbot_one.pc'
+[2.563s] Level 1:colcon.colcon_core.environment:checking '/home/dax/dev_ws/install/skillboxbot_one/lib/python3.10/site-packages'
+[2.563s] Level 1:colcon.colcon_core.environment:checking '/home/dax/dev_ws/install/skillboxbot_one/bin'
+[2.564s] INFO:colcon.colcon_core.shell:Creating package script '/home/dax/dev_ws/install/skillboxbot_one/share/skillboxbot_one/package.ps1'
+[2.564s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dax/dev_ws/install/skillboxbot_one/share/skillboxbot_one/package.dsv'
+[2.565s] INFO:colcon.colcon_core.shell:Creating package script '/home/dax/dev_ws/install/skillboxbot_one/share/skillboxbot_one/package.sh'
+[2.565s] INFO:colcon.colcon_core.shell:Creating package script '/home/dax/dev_ws/install/skillboxbot_one/share/skillboxbot_one/package.bash'
+[2.566s] INFO:colcon.colcon_core.shell:Creating package script '/home/dax/dev_ws/install/skillboxbot_one/share/skillboxbot_one/package.zsh'
+[2.566s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dax/dev_ws/install/skillboxbot_one/share/colcon-core/packages/skillboxbot_one)
+[2.567s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.567s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.567s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.568s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.574s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.574s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.574s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.590s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.591s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dax/dev_ws/install/local_setup.ps1'
+[2.592s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/dax/dev_ws/install/_local_setup_util_ps1.py'
+[2.600s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dax/dev_ws/install/setup.ps1'
+[2.602s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dax/dev_ws/install/local_setup.sh'
+[2.603s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/dax/dev_ws/install/_local_setup_util_sh.py'
+[2.603s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dax/dev_ws/install/setup.sh'
+[2.605s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dax/dev_ws/install/local_setup.bash'
+[2.605s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dax/dev_ws/install/setup.bash'
+[2.607s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dax/dev_ws/install/local_setup.zsh'
+[2.608s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dax/dev_ws/install/setup.zsh'

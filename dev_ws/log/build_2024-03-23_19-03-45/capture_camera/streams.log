@@ -1,0 +1,37 @@
+[0.475s] Invoking command in '/home/dax/dev_ws/src/capture_camera': PYTHONPATH=/home/dax/dev_ws/build/capture_camera/prefix_override:/home/dax/dev_ws/install/capture_camera/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/capture_camera build --build-base /home/dax/dev_ws/build/capture_camera/build install --record /home/dax/dev_ws/build/capture_camera/install.log --single-version-externally-managed install_data
+[0.688s] running egg_info
+[0.688s] creating ../../build/capture_camera/capture_camera.egg-info
+[0.688s] writing ../../build/capture_camera/capture_camera.egg-info/PKG-INFO
+[0.688s] writing dependency_links to ../../build/capture_camera/capture_camera.egg-info/dependency_links.txt
+[0.688s] writing entry points to ../../build/capture_camera/capture_camera.egg-info/entry_points.txt
+[0.689s] writing requirements to ../../build/capture_camera/capture_camera.egg-info/requires.txt
+[0.689s] writing top-level names to ../../build/capture_camera/capture_camera.egg-info/top_level.txt
+[0.689s] writing manifest file '../../build/capture_camera/capture_camera.egg-info/SOURCES.txt'
+[0.690s] reading manifest file '../../build/capture_camera/capture_camera.egg-info/SOURCES.txt'
+[0.690s] writing manifest file '../../build/capture_camera/capture_camera.egg-info/SOURCES.txt'
+[0.690s] running build
+[0.690s] running build_py
+[0.690s] creating /home/dax/dev_ws/build/capture_camera/build
+[0.691s] creating /home/dax/dev_ws/build/capture_camera/build/lib
+[0.691s] creating /home/dax/dev_ws/build/capture_camera/build/lib/capture_camera
+[0.691s] copying capture_camera/__init__.py -> /home/dax/dev_ws/build/capture_camera/build/lib/capture_camera
+[0.691s] copying capture_camera/capture_camera.py -> /home/dax/dev_ws/build/capture_camera/build/lib/capture_camera
+[0.691s] running install
+[0.692s] running install_lib
+[0.692s] creating /home/dax/dev_ws/install/capture_camera/lib/python3.10/site-packages/capture_camera
+[0.692s] copying /home/dax/dev_ws/build/capture_camera/build/lib/capture_camera/__init__.py -> /home/dax/dev_ws/install/capture_camera/lib/python3.10/site-packages/capture_camera
+[0.692s] copying /home/dax/dev_ws/build/capture_camera/build/lib/capture_camera/capture_camera.py -> /home/dax/dev_ws/install/capture_camera/lib/python3.10/site-packages/capture_camera
+[0.692s] byte-compiling /home/dax/dev_ws/install/capture_camera/lib/python3.10/site-packages/capture_camera/__init__.py to __init__.cpython-310.pyc
+[0.693s] byte-compiling /home/dax/dev_ws/install/capture_camera/lib/python3.10/site-packages/capture_camera/capture_camera.py to capture_camera.cpython-310.pyc
+[0.693s] running install_data
+[0.693s] creating /home/dax/dev_ws/install/capture_camera/share/ament_index
+[0.693s] creating /home/dax/dev_ws/install/capture_camera/share/ament_index/resource_index
+[0.693s] creating /home/dax/dev_ws/install/capture_camera/share/ament_index/resource_index/packages
+[0.693s] copying resource/capture_camera -> /home/dax/dev_ws/install/capture_camera/share/ament_index/resource_index/packages
+[0.693s] copying package.xml -> /home/dax/dev_ws/install/capture_camera/share/capture_camera
+[0.693s] running install_egg_info
+[0.694s] Copying ../../build/capture_camera/capture_camera.egg-info to /home/dax/dev_ws/install/capture_camera/lib/python3.10/site-packages/capture_camera-0.0.0-py3.10.egg-info
+[0.695s] running install_scripts
+[0.709s] Installing capture_camera script to /home/dax/dev_ws/install/capture_camera/lib/capture_camera
+[0.709s] writing list of installed files to '/home/dax/dev_ws/build/capture_camera/install.log'
+[0.730s] Invoked command in '/home/dax/dev_ws/src/capture_camera' returned '0': PYTHONPATH=/home/dax/dev_ws/build/capture_camera/prefix_override:/home/dax/dev_ws/install/capture_camera/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/capture_camera build --build-base /home/dax/dev_ws/build/capture_camera/build install --record /home/dax/dev_ws/build/capture_camera/install.log --single-version-externally-managed install_data

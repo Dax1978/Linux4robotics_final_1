@@ -1,0 +1,23 @@
+[1.045s] Invoking command in '/home/dax/dev_ws/src/capture_camera': PYTHONPATH=/home/dax/dev_ws/build/capture_camera/prefix_override:/home/dax/dev_ws/install/capture_camera/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/capture_camera build --build-base /home/dax/dev_ws/build/capture_camera/build install --record /home/dax/dev_ws/build/capture_camera/install.log --single-version-externally-managed install_data
+[1.264s] running egg_info
+[1.265s] writing ../../build/capture_camera/capture_camera.egg-info/PKG-INFO
+[1.265s] writing dependency_links to ../../build/capture_camera/capture_camera.egg-info/dependency_links.txt
+[1.266s] writing entry points to ../../build/capture_camera/capture_camera.egg-info/entry_points.txt
+[1.266s] writing requirements to ../../build/capture_camera/capture_camera.egg-info/requires.txt
+[1.266s] writing top-level names to ../../build/capture_camera/capture_camera.egg-info/top_level.txt
+[1.270s] reading manifest file '../../build/capture_camera/capture_camera.egg-info/SOURCES.txt'
+[1.271s] writing manifest file '../../build/capture_camera/capture_camera.egg-info/SOURCES.txt'
+[1.271s] running build
+[1.271s] running build_py
+[1.271s] running install
+[1.272s] running install_lib
+[1.273s] running install_data
+[1.273s] creating /home/dax/dev_ws/install/capture_camera/share/capture_camera/launch
+[1.273s] copying launch/camera_launch.py -> /home/dax/dev_ws/install/capture_camera/share/capture_camera/launch
+[1.273s] running install_egg_info
+[1.274s] removing '/home/dax/dev_ws/install/capture_camera/lib/python3.10/site-packages/capture_camera-0.0.0-py3.10.egg-info' (and everything under it)
+[1.276s] Copying ../../build/capture_camera/capture_camera.egg-info to /home/dax/dev_ws/install/capture_camera/lib/python3.10/site-packages/capture_camera-0.0.0-py3.10.egg-info
+[1.276s] running install_scripts
+[1.291s] Installing capture_camera script to /home/dax/dev_ws/install/capture_camera/lib/capture_camera
+[1.291s] writing list of installed files to '/home/dax/dev_ws/build/capture_camera/install.log'
+[1.366s] Invoked command in '/home/dax/dev_ws/src/capture_camera' returned '0': PYTHONPATH=/home/dax/dev_ws/build/capture_camera/prefix_override:/home/dax/dev_ws/install/capture_camera/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/capture_camera build --build-base /home/dax/dev_ws/build/capture_camera/build install --record /home/dax/dev_ws/build/capture_camera/install.log --single-version-externally-managed install_data

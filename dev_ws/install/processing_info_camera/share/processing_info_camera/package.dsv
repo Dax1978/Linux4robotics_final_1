@@ -1,0 +1,9 @@
+source;share/processing_info_camera/hook/pythonpath.ps1
+source;share/processing_info_camera/hook/pythonpath.dsv
+source;share/processing_info_camera/hook/pythonpath.sh
+source;share/processing_info_camera/hook/ament_prefix_path.ps1
+source;share/processing_info_camera/hook/ament_prefix_path.dsv
+source;share/processing_info_camera/hook/ament_prefix_path.sh
+source;../../build/processing_info_camera/share/processing_info_camera/hook/pythonpath_develop.ps1
+source;../../build/processing_info_camera/share/processing_info_camera/hook/pythonpath_develop.dsv
+source;../../build/processing_info_camera/share/processing_info_camera/hook/pythonpath_develop.sh

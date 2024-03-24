@@ -1,0 +1,4 @@
+Invoking command in '/home/dax/dev_ws/build/skillboxbot_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dax/dev_ws/install/capture_camera:/opt/ros/humble /usr/bin/cmake --build /home/dax/dev_ws/build/skillboxbot_one -- -j3 -l3
+Invoked command in '/home/dax/dev_ws/build/skillboxbot_one' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dax/dev_ws/install/capture_camera:/opt/ros/humble /usr/bin/cmake --build /home/dax/dev_ws/build/skillboxbot_one -- -j3 -l3
+Invoking command in '/home/dax/dev_ws/build/skillboxbot_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dax/dev_ws/install/capture_camera:/opt/ros/humble /usr/bin/cmake --install /home/dax/dev_ws/build/skillboxbot_one
+Invoked command in '/home/dax/dev_ws/build/skillboxbot_one' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dax/dev_ws/install/capture_camera:/opt/ros/humble /usr/bin/cmake --install /home/dax/dev_ws/build/skillboxbot_one

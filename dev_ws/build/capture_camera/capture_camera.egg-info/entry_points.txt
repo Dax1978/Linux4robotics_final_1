@@ -1,0 +1,3 @@
+[console_scripts]
+capture_camera = capture_camera.capture_camera:main
+

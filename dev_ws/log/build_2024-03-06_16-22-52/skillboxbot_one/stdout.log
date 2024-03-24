@@ -1,0 +1,25 @@
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/dax/dev_ws/install/skillboxbot_one/share/skillboxbot_one/config/empty.yaml
+-- Symlinking: /home/dax/dev_ws/install/skillboxbot_one/share/skillboxbot_one/config/view_bot.rviz
+-- Up-to-date symlink: /home/dax/dev_ws/install/skillboxbot_one/share/skillboxbot_one/description/inertial_macros.xacro
+-- Up-to-date symlink: /home/dax/dev_ws/install/skillboxbot_one/share/skillboxbot_one/description/robot.urdf.xacro
+-- Up-to-date symlink: /home/dax/dev_ws/install/skillboxbot_one/share/skillboxbot_one/description/robot_core.xacro
+-- Symlinking: /home/dax/dev_ws/install/skillboxbot_one/share/skillboxbot_one/launch/launch_sim.launch.py
+-- Up-to-date symlink: /home/dax/dev_ws/install/skillboxbot_one/share/skillboxbot_one/launch/rsp.launch.py
+-- Up-to-date symlink: /home/dax/dev_ws/install/skillboxbot_one/share/skillboxbot_one/worlds/empty.world
+-- Up-to-date symlink: /home/dax/dev_ws/install/skillboxbot_one/share/ament_index/resource_index/package_run_dependencies/skillboxbot_one
+-- Up-to-date symlink: /home/dax/dev_ws/install/skillboxbot_one/share/ament_index/resource_index/parent_prefix_path/skillboxbot_one
+-- Up-to-date symlink: /home/dax/dev_ws/install/skillboxbot_one/share/skillboxbot_one/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/dax/dev_ws/install/skillboxbot_one/share/skillboxbot_one/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/dax/dev_ws/install/skillboxbot_one/share/skillboxbot_one/environment/path.sh
+-- Up-to-date symlink: /home/dax/dev_ws/install/skillboxbot_one/share/skillboxbot_one/environment/path.dsv
+-- Up-to-date symlink: /home/dax/dev_ws/install/skillboxbot_one/share/skillboxbot_one/local_setup.bash
+-- Up-to-date symlink: /home/dax/dev_ws/install/skillboxbot_one/share/skillboxbot_one/local_setup.sh
+-- Up-to-date symlink: /home/dax/dev_ws/install/skillboxbot_one/share/skillboxbot_one/local_setup.zsh
+-- Up-to-date symlink: /home/dax/dev_ws/install/skillboxbot_one/share/skillboxbot_one/local_setup.dsv
+-- Symlinking: /home/dax/dev_ws/install/skillboxbot_one/share/skillboxbot_one/package.dsv
+-- Up-to-date symlink: /home/dax/dev_ws/install/skillboxbot_one/share/ament_index/resource_index/packages/skillboxbot_one
+-- Up-to-date symlink: /home/dax/dev_ws/install/skillboxbot_one/share/skillboxbot_one/cmake/skillboxbot_oneConfig.cmake
+-- Up-to-date symlink: /home/dax/dev_ws/install/skillboxbot_one/share/skillboxbot_one/cmake/skillboxbot_oneConfig-version.cmake
+-- Up-to-date symlink: /home/dax/dev_ws/install/skillboxbot_one/share/skillboxbot_one/package.xml

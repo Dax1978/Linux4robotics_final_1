@@ -1,0 +1,4 @@
+source;share/skillboxbot_one/local_setup.bash
+source;share/skillboxbot_one/local_setup.dsv
+source;share/skillboxbot_one/local_setup.sh
+source;share/skillboxbot_one/local_setup.zsh

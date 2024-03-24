@@ -1,0 +1,21 @@
+[1.127s] Invoking command in '/home/dax/dev_ws/build/processing_info_camera': PYTHONPATH=/home/dax/dev_ws/build/processing_info_camera/prefix_override:/home/dax/dev_ws/install/processing_info_camera/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/dax/dev_ws/build/processing_info_camera/build --no-deps symlink_data --force
+[1.374s] running develop
+[1.405s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.406s]   warnings.warn(
+[1.521s] running egg_info
+[1.522s] writing processing_info_camera.egg-info/PKG-INFO
+[1.523s] writing dependency_links to processing_info_camera.egg-info/dependency_links.txt
+[1.524s] writing entry points to processing_info_camera.egg-info/entry_points.txt
+[1.528s] writing requirements to processing_info_camera.egg-info/requires.txt
+[1.528s] writing top-level names to processing_info_camera.egg-info/top_level.txt
+[1.529s] reading manifest file 'processing_info_camera.egg-info/SOURCES.txt'
+[1.537s] writing manifest file 'processing_info_camera.egg-info/SOURCES.txt'
+[1.538s] running build_ext
+[1.539s] Creating /home/dax/dev_ws/install/processing_info_camera/lib/python3.10/site-packages/processing-info-camera.egg-link (link to .)
+[1.540s] Installing processing_info_camera script to /home/dax/dev_ws/install/processing_info_camera/lib/processing_info_camera
+[1.541s] 
+[1.541s] Installed /home/dax/dev_ws/build/processing_info_camera
+[1.542s] running symlink_data
+[1.542s] symbolically linking /home/dax/dev_ws/build/processing_info_camera/resource/processing_info_camera -> /home/dax/dev_ws/install/processing_info_camera/share/ament_index/resource_index/packages
+[1.543s] symbolically linking /home/dax/dev_ws/build/processing_info_camera/package.xml -> /home/dax/dev_ws/install/processing_info_camera/share/processing_info_camera
+[1.626s] Invoked command in '/home/dax/dev_ws/build/processing_info_camera' returned '0': PYTHONPATH=/home/dax/dev_ws/build/processing_info_camera/prefix_override:/home/dax/dev_ws/install/processing_info_camera/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/dax/dev_ws/build/processing_info_camera/build --no-deps symlink_data --force

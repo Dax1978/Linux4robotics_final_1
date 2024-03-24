@@ -1,0 +1,51 @@
+[0.143s] Invoking command in '/home/dax/dev_ws/build/skillboxbot_one': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/dax/dev_ws/src/skillboxbot_one -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dax/dev_ws/install/skillboxbot_one
+[0.728s] -- The C compiler identification is GNU 11.4.0
+[1.044s] -- The CXX compiler identification is GNU 11.4.0
+[1.070s] -- Detecting C compiler ABI info
+[1.294s] -- Detecting C compiler ABI info - done
+[1.315s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.316s] -- Detecting C compile features
+[1.327s] -- Detecting C compile features - done
+[1.351s] -- Detecting CXX compiler ABI info
+[1.612s] -- Detecting CXX compiler ABI info - done
+[1.645s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.646s] -- Detecting CXX compile features
+[1.647s] -- Detecting CXX compile features - done
+[1.684s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.347s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[2.583s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.673s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.975s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.996s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.999s] -- Added test 'lint_cmake' to check CMake code style
+[3.001s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.006s] -- Added test 'xmllint' to check XML markup files
+[3.028s] -- Configuring done
+[3.035s] -- Generating done
+[3.036s] -- Build files have been written to: /home/dax/dev_ws/build/skillboxbot_one
+[3.044s] Invoked command in '/home/dax/dev_ws/build/skillboxbot_one' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/dax/dev_ws/src/skillboxbot_one -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dax/dev_ws/install/skillboxbot_one
+[3.044s] Invoking command in '/home/dax/dev_ws/build/skillboxbot_one': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dax/dev_ws/build/skillboxbot_one -- -j1 -l1
+[3.145s] Invoked command in '/home/dax/dev_ws/build/skillboxbot_one' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dax/dev_ws/build/skillboxbot_one -- -j1 -l1
+[3.212s] Invoking command in '/home/dax/dev_ws/build/skillboxbot_one': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/dax/dev_ws/build/skillboxbot_one
+[3.240s] -- Install configuration: ""
+[3.241s] -- Execute custom install script
+[3.242s] -- Symlinking: /home/dax/dev_ws/install/skillboxbot_one/share/skillboxbot_one/config/empty.yaml
+[3.255s] -- Symlinking: /home/dax/dev_ws/install/skillboxbot_one/share/skillboxbot_one/description/robot.urdf.xacro
+[3.292s] -- Symlinking: /home/dax/dev_ws/install/skillboxbot_one/share/skillboxbot_one/launch/rsp.launch.py
+[3.306s] -- Symlinking: /home/dax/dev_ws/install/skillboxbot_one/share/skillboxbot_one/worlds/empty.world
+[3.325s] -- Symlinking: /home/dax/dev_ws/install/skillboxbot_one/share/ament_index/resource_index/package_run_dependencies/skillboxbot_one
+[3.346s] -- Symlinking: /home/dax/dev_ws/install/skillboxbot_one/share/ament_index/resource_index/parent_prefix_path/skillboxbot_one
+[3.372s] -- Symlinking: /home/dax/dev_ws/install/skillboxbot_one/share/skillboxbot_one/environment/ament_prefix_path.sh
+[3.397s] -- Symlinking: /home/dax/dev_ws/install/skillboxbot_one/share/skillboxbot_one/environment/ament_prefix_path.dsv
+[3.411s] -- Symlinking: /home/dax/dev_ws/install/skillboxbot_one/share/skillboxbot_one/environment/path.sh
+[3.428s] -- Symlinking: /home/dax/dev_ws/install/skillboxbot_one/share/skillboxbot_one/environment/path.dsv
+[3.458s] -- Symlinking: /home/dax/dev_ws/install/skillboxbot_one/share/skillboxbot_one/local_setup.bash
+[3.479s] -- Symlinking: /home/dax/dev_ws/install/skillboxbot_one/share/skillboxbot_one/local_setup.sh
+[3.498s] -- Symlinking: /home/dax/dev_ws/install/skillboxbot_one/share/skillboxbot_one/local_setup.zsh
+[3.514s] -- Symlinking: /home/dax/dev_ws/install/skillboxbot_one/share/skillboxbot_one/local_setup.dsv
+[3.540s] -- Symlinking: /home/dax/dev_ws/install/skillboxbot_one/share/skillboxbot_one/package.dsv
+[3.585s] -- Symlinking: /home/dax/dev_ws/install/skillboxbot_one/share/ament_index/resource_index/packages/skillboxbot_one
+[3.587s] -- Symlinking: /home/dax/dev_ws/install/skillboxbot_one/share/skillboxbot_one/cmake/skillboxbot_oneConfig.cmake
+[3.609s] -- Symlinking: /home/dax/dev_ws/install/skillboxbot_one/share/skillboxbot_one/cmake/skillboxbot_oneConfig-version.cmake
+[3.627s] -- Symlinking: /home/dax/dev_ws/install/skillboxbot_one/share/skillboxbot_one/package.xml
+[3.663s] Invoked command in '/home/dax/dev_ws/build/skillboxbot_one' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/dax/dev_ws/build/skillboxbot_one

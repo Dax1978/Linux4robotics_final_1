@@ -1,0 +1,37 @@
+[1.123s] Invoking command in '/home/dax/dev_ws/src/processing_camera': PYTHONPATH=/home/dax/dev_ws/build/processing_camera/prefix_override:/home/dax/dev_ws/install/processing_camera/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/processing_camera build --build-base /home/dax/dev_ws/build/processing_camera/build install --record /home/dax/dev_ws/build/processing_camera/install.log --single-version-externally-managed install_data
+[1.357s] running egg_info
+[1.357s] creating ../../build/processing_camera/processing_camera.egg-info
+[1.358s] writing ../../build/processing_camera/processing_camera.egg-info/PKG-INFO
+[1.359s] writing dependency_links to ../../build/processing_camera/processing_camera.egg-info/dependency_links.txt
+[1.360s] writing entry points to ../../build/processing_camera/processing_camera.egg-info/entry_points.txt
+[1.360s] writing requirements to ../../build/processing_camera/processing_camera.egg-info/requires.txt
+[1.361s] writing top-level names to ../../build/processing_camera/processing_camera.egg-info/top_level.txt
+[1.362s] writing manifest file '../../build/processing_camera/processing_camera.egg-info/SOURCES.txt'
+[1.364s] reading manifest file '../../build/processing_camera/processing_camera.egg-info/SOURCES.txt'
+[1.364s] writing manifest file '../../build/processing_camera/processing_camera.egg-info/SOURCES.txt'
+[1.365s] running build
+[1.365s] running build_py
+[1.365s] creating /home/dax/dev_ws/build/processing_camera/build
+[1.366s] creating /home/dax/dev_ws/build/processing_camera/build/lib
+[1.366s] creating /home/dax/dev_ws/build/processing_camera/build/lib/processing_camera
+[1.366s] copying processing_camera/__init__.py -> /home/dax/dev_ws/build/processing_camera/build/lib/processing_camera
+[1.367s] copying processing_camera/processing_camera.py -> /home/dax/dev_ws/build/processing_camera/build/lib/processing_camera
+[1.367s] running install
+[1.368s] running install_lib
+[1.369s] creating /home/dax/dev_ws/install/processing_camera/lib/python3.10/site-packages/processing_camera
+[1.369s] copying /home/dax/dev_ws/build/processing_camera/build/lib/processing_camera/__init__.py -> /home/dax/dev_ws/install/processing_camera/lib/python3.10/site-packages/processing_camera
+[1.369s] copying /home/dax/dev_ws/build/processing_camera/build/lib/processing_camera/processing_camera.py -> /home/dax/dev_ws/install/processing_camera/lib/python3.10/site-packages/processing_camera
+[1.370s] byte-compiling /home/dax/dev_ws/install/processing_camera/lib/python3.10/site-packages/processing_camera/__init__.py to __init__.cpython-310.pyc
+[1.370s] byte-compiling /home/dax/dev_ws/install/processing_camera/lib/python3.10/site-packages/processing_camera/processing_camera.py to processing_camera.cpython-310.pyc
+[1.371s] running install_data
+[1.371s] creating /home/dax/dev_ws/install/processing_camera/share/ament_index
+[1.371s] creating /home/dax/dev_ws/install/processing_camera/share/ament_index/resource_index
+[1.371s] creating /home/dax/dev_ws/install/processing_camera/share/ament_index/resource_index/packages
+[1.372s] copying resource/processing_camera -> /home/dax/dev_ws/install/processing_camera/share/ament_index/resource_index/packages
+[1.372s] copying package.xml -> /home/dax/dev_ws/install/processing_camera/share/processing_camera
+[1.373s] running install_egg_info
+[1.374s] Copying ../../build/processing_camera/processing_camera.egg-info to /home/dax/dev_ws/install/processing_camera/lib/python3.10/site-packages/processing_camera-0.0.0-py3.10.egg-info
+[1.375s] running install_scripts
+[1.398s] Installing processing_camera script to /home/dax/dev_ws/install/processing_camera/lib/processing_camera
+[1.401s] writing list of installed files to '/home/dax/dev_ws/build/processing_camera/install.log'
+[1.431s] Invoked command in '/home/dax/dev_ws/src/processing_camera' returned '0': PYTHONPATH=/home/dax/dev_ws/build/processing_camera/prefix_override:/home/dax/dev_ws/install/processing_camera/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/processing_camera build --build-base /home/dax/dev_ws/build/processing_camera/build install --record /home/dax/dev_ws/build/processing_camera/install.log --single-version-externally-managed install_data

@@ -1,0 +1,24 @@
+[1.047s] Invoking command in '/home/dax/dev_ws/src/processing_info_camera': PYTHONPATH=/home/dax/dev_ws/build/processing_info_camera/prefix_override:/home/dax/dev_ws/install/processing_info_camera/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/processing_info_camera build --build-base /home/dax/dev_ws/build/processing_info_camera/build install --record /home/dax/dev_ws/build/processing_info_camera/install.log --single-version-externally-managed install_data
+[1.313s] running egg_info
+[1.313s] writing ../../build/processing_info_camera/processing_info_camera.egg-info/PKG-INFO
+[1.313s] writing dependency_links to ../../build/processing_info_camera/processing_info_camera.egg-info/dependency_links.txt
+[1.314s] writing entry points to ../../build/processing_info_camera/processing_info_camera.egg-info/entry_points.txt
+[1.314s] writing requirements to ../../build/processing_info_camera/processing_info_camera.egg-info/requires.txt
+[1.315s] writing top-level names to ../../build/processing_info_camera/processing_info_camera.egg-info/top_level.txt
+[1.315s] reading manifest file '../../build/processing_info_camera/processing_info_camera.egg-info/SOURCES.txt'
+[1.315s] writing manifest file '../../build/processing_info_camera/processing_info_camera.egg-info/SOURCES.txt'
+[1.316s] running build
+[1.316s] running build_py
+[1.316s] copying processing_info_camera/processing_info_camera.py -> /home/dax/dev_ws/build/processing_info_camera/build/lib/processing_info_camera
+[1.317s] running install
+[1.317s] running install_lib
+[1.317s] copying /home/dax/dev_ws/build/processing_info_camera/build/lib/processing_info_camera/processing_info_camera.py -> /home/dax/dev_ws/install/processing_info_camera/lib/python3.10/site-packages/processing_info_camera
+[1.317s] byte-compiling /home/dax/dev_ws/install/processing_info_camera/lib/python3.10/site-packages/processing_info_camera/processing_info_camera.py to processing_info_camera.cpython-310.pyc
+[1.318s] running install_data
+[1.318s] running install_egg_info
+[1.319s] removing '/home/dax/dev_ws/install/processing_info_camera/lib/python3.10/site-packages/processing_info_camera-0.0.0-py3.10.egg-info' (and everything under it)
+[1.319s] Copying ../../build/processing_info_camera/processing_info_camera.egg-info to /home/dax/dev_ws/install/processing_info_camera/lib/python3.10/site-packages/processing_info_camera-0.0.0-py3.10.egg-info
+[1.319s] running install_scripts
+[1.361s] Installing processing_info_camera script to /home/dax/dev_ws/install/processing_info_camera/lib/processing_info_camera
+[1.362s] writing list of installed files to '/home/dax/dev_ws/build/processing_info_camera/install.log'
+[1.363s] Invoked command in '/home/dax/dev_ws/src/processing_info_camera' returned '0': PYTHONPATH=/home/dax/dev_ws/build/processing_info_camera/prefix_override:/home/dax/dev_ws/install/processing_info_camera/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/processing_info_camera build --build-base /home/dax/dev_ws/build/processing_info_camera/build install --record /home/dax/dev_ws/build/processing_info_camera/install.log --single-version-externally-managed install_data

@@ -1,0 +1,22 @@
+[1.120s] Invoking command in '/home/dax/dev_ws/build/capture_camera': PYTHONPATH=/home/dax/dev_ws/build/capture_camera/prefix_override:/home/dax/dev_ws/install/capture_camera/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/dax/dev_ws/build/capture_camera/build --no-deps symlink_data --force
+[1.399s] running develop
+[1.420s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.421s]   warnings.warn(
+[1.558s] running egg_info
+[1.559s] writing capture_camera.egg-info/PKG-INFO
+[1.559s] writing dependency_links to capture_camera.egg-info/dependency_links.txt
+[1.559s] writing entry points to capture_camera.egg-info/entry_points.txt
+[1.560s] writing requirements to capture_camera.egg-info/requires.txt
+[1.560s] writing top-level names to capture_camera.egg-info/top_level.txt
+[1.560s] reading manifest file 'capture_camera.egg-info/SOURCES.txt'
+[1.561s] writing manifest file 'capture_camera.egg-info/SOURCES.txt'
+[1.562s] running build_ext
+[1.563s] Creating /home/dax/dev_ws/install/capture_camera/lib/python3.10/site-packages/capture-camera.egg-link (link to .)
+[1.564s] Installing capture_camera script to /home/dax/dev_ws/install/capture_camera/lib/capture_camera
+[1.564s] 
+[1.564s] Installed /home/dax/dev_ws/build/capture_camera
+[1.565s] running symlink_data
+[1.565s] symbolically linking /home/dax/dev_ws/build/capture_camera/resource/capture_camera -> /home/dax/dev_ws/install/capture_camera/share/ament_index/resource_index/packages
+[1.565s] symbolically linking /home/dax/dev_ws/build/capture_camera/package.xml -> /home/dax/dev_ws/install/capture_camera/share/capture_camera
+[1.566s] symbolically linking /home/dax/dev_ws/build/capture_camera/launch/camera_launch.py -> /home/dax/dev_ws/install/capture_camera/share/capture_camera/launch
+[1.601s] Invoked command in '/home/dax/dev_ws/build/capture_camera' returned '0': PYTHONPATH=/home/dax/dev_ws/build/capture_camera/prefix_override:/home/dax/dev_ws/install/capture_camera/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/dax/dev_ws/build/capture_camera/build --no-deps symlink_data --force

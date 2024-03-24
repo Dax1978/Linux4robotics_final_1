@@ -1,0 +1,27 @@
+[0.068s] Invoking command in '/home/dax/dev_ws/build/skillboxbot_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/dax/dev_ws/build/skillboxbot_one -- -j3 -l3
+[0.136s] Invoked command in '/home/dax/dev_ws/build/skillboxbot_one' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/dax/dev_ws/build/skillboxbot_one -- -j3 -l3
+[0.163s] Invoking command in '/home/dax/dev_ws/build/skillboxbot_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/dax/dev_ws/build/skillboxbot_one
+[0.170s] -- Install configuration: ""
+[0.171s] -- Execute custom install script
+[0.172s] -- Up-to-date symlink: /home/dax/dev_ws/install/skillboxbot_one/share/skillboxbot_one/config/empty.yaml
+[0.173s] -- Symlinking: /home/dax/dev_ws/install/skillboxbot_one/share/skillboxbot_one/description/inertial_macros.xacro
+[0.181s] -- Up-to-date symlink: /home/dax/dev_ws/install/skillboxbot_one/share/skillboxbot_one/description/robot.urdf.xacro
+[0.181s] -- Up-to-date symlink: /home/dax/dev_ws/install/skillboxbot_one/share/skillboxbot_one/description/robot_core.xacro
+[0.181s] -- Up-to-date symlink: /home/dax/dev_ws/install/skillboxbot_one/share/skillboxbot_one/launch/rsp.launch.py
+[0.182s] -- Up-to-date symlink: /home/dax/dev_ws/install/skillboxbot_one/share/skillboxbot_one/worlds/empty.world
+[0.182s] -- Up-to-date symlink: /home/dax/dev_ws/install/skillboxbot_one/share/ament_index/resource_index/package_run_dependencies/skillboxbot_one
+[0.183s] -- Up-to-date symlink: /home/dax/dev_ws/install/skillboxbot_one/share/ament_index/resource_index/parent_prefix_path/skillboxbot_one
+[0.184s] -- Up-to-date symlink: /home/dax/dev_ws/install/skillboxbot_one/share/skillboxbot_one/environment/ament_prefix_path.sh
+[0.184s] -- Up-to-date symlink: /home/dax/dev_ws/install/skillboxbot_one/share/skillboxbot_one/environment/ament_prefix_path.dsv
+[0.185s] -- Up-to-date symlink: /home/dax/dev_ws/install/skillboxbot_one/share/skillboxbot_one/environment/path.sh
+[0.185s] -- Up-to-date symlink: /home/dax/dev_ws/install/skillboxbot_one/share/skillboxbot_one/environment/path.dsv
+[0.185s] -- Up-to-date symlink: /home/dax/dev_ws/install/skillboxbot_one/share/skillboxbot_one/local_setup.bash
+[0.185s] -- Up-to-date symlink: /home/dax/dev_ws/install/skillboxbot_one/share/skillboxbot_one/local_setup.sh
+[0.185s] -- Up-to-date symlink: /home/dax/dev_ws/install/skillboxbot_one/share/skillboxbot_one/local_setup.zsh
+[0.185s] -- Up-to-date symlink: /home/dax/dev_ws/install/skillboxbot_one/share/skillboxbot_one/local_setup.dsv
+[0.186s] -- Symlinking: /home/dax/dev_ws/install/skillboxbot_one/share/skillboxbot_one/package.dsv
+[0.193s] -- Up-to-date symlink: /home/dax/dev_ws/install/skillboxbot_one/share/ament_index/resource_index/packages/skillboxbot_one
+[0.193s] -- Up-to-date symlink: /home/dax/dev_ws/install/skillboxbot_one/share/skillboxbot_one/cmake/skillboxbot_oneConfig.cmake
+[0.193s] -- Up-to-date symlink: /home/dax/dev_ws/install/skillboxbot_one/share/skillboxbot_one/cmake/skillboxbot_oneConfig-version.cmake
+[0.193s] -- Up-to-date symlink: /home/dax/dev_ws/install/skillboxbot_one/share/skillboxbot_one/package.xml
+[0.195s] Invoked command in '/home/dax/dev_ws/build/skillboxbot_one' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/dax/dev_ws/build/skillboxbot_one

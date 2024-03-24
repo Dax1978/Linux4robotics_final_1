@@ -1,0 +1,3 @@
+[console_scripts]
+processing_camera = processing_camera.processing_camera:main
+

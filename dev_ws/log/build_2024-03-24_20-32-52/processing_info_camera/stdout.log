@@ -1,0 +1,15 @@
+running develop
+running egg_info
+writing processing_info_camera.egg-info/PKG-INFO
+writing dependency_links to processing_info_camera.egg-info/dependency_links.txt
+writing entry points to processing_info_camera.egg-info/entry_points.txt
+writing requirements to processing_info_camera.egg-info/requires.txt
+writing top-level names to processing_info_camera.egg-info/top_level.txt
+reading manifest file 'processing_info_camera.egg-info/SOURCES.txt'
+writing manifest file 'processing_info_camera.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/dax/dev_ws/install/processing_info_camera/lib/python3.10/site-packages/processing-info-camera.egg-link (link to .)
+Installing processing_info_camera script to /home/dax/dev_ws/install/processing_info_camera/lib/processing_info_camera
+
+Installed /home/dax/dev_ws/build/processing_info_camera
+running symlink_data
